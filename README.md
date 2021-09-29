@@ -1,7 +1,7 @@
 # banner-lhsl-project
 
 ## 本地端部署
-#### step1
+#### step
 ```
 Clone專案至本地端
 ```

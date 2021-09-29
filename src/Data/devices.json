@@ -1,0 +1,359 @@
+{
+  "DigitalInputs": [
+    {
+      "Id": "DI-001",
+      "Name": "預設名稱DI-001",
+      "IsConnected": false, 
+      "Data": {
+        "DigitalInput": {
+          "Value": false,
+          "IsAlarm": true
+        }
+      }
+    }
+  ],
+  "DigitalOutputs": [
+    {
+      "Id": "DO-001",
+      "Name": "預設名稱DO-001",
+      "IsConnected": false,
+      "Data": {
+        "DigitalOutput": {
+          "Value": false,
+          "IsAlarm": true
+        }
+      }
+    }
+  ],
+  "AnalogInputs": [
+    {
+      "Id": "AI-001",
+      "Name": "預設名稱AI-001",
+      "IsConnected": false,
+      "Data": {
+        "AnalogInput": {
+          "Value": 0,
+          "Unit": "",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        }
+      }
+    }
+  ],
+  "UPSs": [
+    {
+      "Id": "UPS-001",
+      "Name": "預設名稱UPS-001",
+      "IsConnected": false,
+      "Data": {
+        "BypassVoltageR": {
+          "Value": 0,
+          "Unit": "V",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "BypassVoltageS": {
+          "Value": 0,
+          "Unit": "V",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "BypassVoltageT": {
+          "Value": 0,
+          "Unit": "V",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "BypassFrequency": {
+          "Value": 0,
+          "Unit": "Hz",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "BatteryVoltage": {
+          "Value": 0,
+          "Unit": "V",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "BatteryCurrent": {
+          "Value": 0,
+          "Unit": "A",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "BatteryCapacity": {
+          "Value": 0,
+          "Unit": "%",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "InputFrequencyR": {
+          "Value": 0,
+          "Unit": "Hz",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "InputFrequencyS": {
+          "Value": 0,
+          "Unit": "Hz",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "InputFrequencyT": {
+          "Value": 0,
+          "Unit": "Hz",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "InputStatus": {
+          "Value": false,
+          "IsAlarm": false
+        },
+        "InputVoltageR": {
+          "Value": 0,
+          "Unit": "V",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "InputVoltageS": {
+          "Value": 0,
+          "Unit": "V",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "InputVoltageT": {
+          "Value": 0,
+          "Unit": "V",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "OutputCurrentR": {
+          "Value": 0,
+          "Unit": "A",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "OutputCurrentS": {
+          "Value": 0,
+          "Unit": "A",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "OutputCurrentT": {
+          "Value": 0,
+          "Unit": "A",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "OutputFrequency": {
+          "Value": 0,
+          "Unit": "Hz",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "OutputLoadR": {
+          "Value": 0,
+          "Unit": "A",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "OutputLoadS": {
+          "Value": 0,
+          "Unit": "A",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "OutputLoadT": {
+          "Value": 0,
+          "Unit": "A",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "OutputPowerR": {
+          "Value": 0,
+          "Unit": "W",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "OutputPowerS": {
+          "Value": 0,
+          "Unit": "W",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "OutputPowerT": {
+          "Value": 0,
+          "Unit": "W",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "OutputVoltageR": {
+          "Value": 0,
+          "Unit": "V",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "OutputVoltageS": {
+          "Value": 0,
+          "Unit": "V",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "OutputVoltageT": {
+          "Value": 0,
+          "Unit": "V",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        }
+      }
+    }
+  ],
+  "PowerMeters": [
+    {
+      "Id": "EM-001",
+      "Name": "預設名稱EM-001",
+      "IsConnected": false,
+      "Data": {
+        "CurrentR": {
+          "Value": 0,
+          "Unit": "A",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "CurrentS": {
+          "Value": 0,
+          "Unit": "A",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "CurrentT": {
+          "Value": 0,
+          "Unit": "A",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "Energy": {
+          "Value": 0,
+          "Unit": "k Wh",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "Frequency": {
+          "Value": 0,
+          "Unit": "Hz",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "Power": {
+          "Value": 0,
+          "Unit": "W",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "VoltageR": {
+          "Value": 0,
+          "Unit": "V",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "VoltageS": {
+          "Value": 0,
+          "Unit": "V",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "VoltageT": {
+          "Value": 0,
+          "Unit": "V",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        }
+      }
+    }
+  ],
+  "THMeters": [
+    {
+      "Id": "TH-001",
+      "Name": "預設名稱TH-001",
+      "IsConnected": false,
+      "Data": {
+        "Temperature": {
+          "Value": 0,
+          "Unit": "°C",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "Humidity": {
+          "Value": 0,
+          "Unit": "%",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": true
+        }
+      }
+    }
+  ],
+  "PDUs": [
+    {
+      "Id": "PDU-001",
+      "Name": "預設名稱PDU-001",
+      "IsConnected": false,
+      "Data": {
+        "CurrentR": {
+          "Value": 0,
+          "Unit": "A",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "CurrentS": {
+          "Value": 0,
+          "Unit": "A",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "CurrentT": {
+          "Value": 0,
+          "Unit": "A",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "PowerR": {
+          "Value": 0,
+          "Unit": "W",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "PowerS": {
+          "Value": 0,
+          "Unit": "W",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "PowerT": {
+          "Value": 0,
+          "Unit": "W",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "VoltageR": {
+          "Value": 0,
+          "Unit": "V",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "VoltageS": {
+          "Value": 0,
+          "Unit": "V",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        },
+        "VoltageT": {
+          "Value": 0,
+          "Unit": "V",
+          "IsUpperLimitAlarm": false,
+          "IsLowerLimitAlarm": false
+        }
+      }
+    }
+  ]
+}

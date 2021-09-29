@@ -1,0 +1,3520 @@
+{
+  "DigitalOutputs": [
+    {
+      "Id": "DO-001",
+      "IsEnable": false,
+      "Name": "預設名稱DO-001",
+      "Data": {
+        "IsNot": false
+      }
+    }
+  ],
+  "DigitalInputs": [
+    {
+      "Id": "DI-001",
+      "IsEnable": false,
+      "Name": "預設名稱DI-001",
+      "Data": {
+        "IsNormalOpen": false,
+        "AlarmEnable": false,
+        "AlarmGroupIds": [
+          6,8
+        ],
+        "IsOnAlarm": false,
+        "AlarmDOId": "DO-001",
+        "IsNot": false
+      }
+    }
+  ],
+  "AnalogInputs": [
+    {
+      "Id": "AI-001",
+      "IsEnable": false,
+      "Name": "預設名稱AI-001",
+      "Data": {
+        "Unit": "%",
+        "UpperLimitAlarm": {
+          "LimitValue": 0,
+          "AlarmEnable": true,
+          "AlarmGroupIds": [
+            6,8
+          ],
+          "AlarmDOId": "DO-001"
+        },
+        "LowerLimitAlarm": {
+          "LimitValue": 0,
+          "AlarmEnable": true,
+          "AlarmGroupIds": [
+            6,8
+          ],
+          "AlarmDOId": "DO-001"
+        }
+      }
+    }
+  ],
+  "THMeters": [
+    {
+      "Id": "TH-001",
+      "IsEnable": true,
+      "Name": "溫溼度計TH-001",
+      "Data": {
+        "Temperature": {
+          "UpperLimitAlarm": {
+            "LimitValue": 5,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+            
+              8
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 20,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              7,
+              8
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "Humidity": {
+          "UpperLimitAlarm": {
+            "LimitValue": 90,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2,
+              8
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 40,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2,
+              8
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        }
+      }
+    },
+    {
+      "Id": "TH-002",
+      "IsEnable": true,
+      "Name": "溫濕度計2",
+      "Data": {
+        "Temperature": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "Humidity": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        }
+      }
+    },
+    {
+      "Id": "TH-003",
+      "IsEnable": true,
+      "Name": "溫濕度計3",
+      "Data": {
+        "Temperature": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "Humidity": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        }
+      }
+    },
+    {
+      "Id": "TH-004",
+      "IsEnable": true,
+      "Name": "溫濕度計4",
+      "Data": {
+        "Temperature": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "Humidity": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        }
+      }
+    },
+    {
+      "Id": "TH-005",
+      "IsEnable": true,
+      "Name": "溫濕度計5",
+      "Data": {
+        "Temperature": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "Humidity": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        }
+      }
+    }
+  ],
+  "UPSs": [
+    {
+      "Id": "UPS-001",
+      "IsEnable": false,
+      "Name": "預設名稱UPS-001",
+      "Data": {
+        "InputStatus": {
+          "AlarmEnable": false,
+          "AlarmGroupIds": [
+            0,
+            1,
+            2
+          ],
+          "IsOnAlarm": false,
+          "AlarmDOId": "DO-001"
+        },
+        "InputVoltageR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "InputVoltageS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "InputVoltageT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "InputFrequencyR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "InputFrequencyS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "InputFrequencyT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputVoltageR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputVoltageS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputVoltageT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputCurrentR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputCurrentS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputCurrentT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputFrequency": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputLoadR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputLoadS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputLoadT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputPowerR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputPowerS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputPowerT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BypassVoltageR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BypassVoltageS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BypassVoltageT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BypassFrequency": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BatteryVoltage": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BatteryCurrent": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BatteryCapacity": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        }
+      }
+    },
+    {
+      "Id": "UPS-002",
+      "IsEnable": false,
+      "Name": "預設名稱UPS-002",
+      "Data": {
+        "InputStatus": {
+          "AlarmEnable": false,
+          "AlarmGroupIds": [
+            0,
+            1,
+            2
+          ],
+          "IsOnAlarm": false,
+          "AlarmDOId": "DO-001"
+        },
+        "InputVoltageR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "InputVoltageS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "InputVoltageT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "InputFrequencyR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "InputFrequencyS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "InputFrequencyT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputVoltageR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputVoltageS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputVoltageT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputCurrentR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputCurrentS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputCurrentT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputFrequency": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputLoadR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputLoadS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputLoadT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputPowerR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputPowerS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputPowerT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BypassVoltageR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BypassVoltageS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BypassVoltageT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BypassFrequency": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BatteryVoltage": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BatteryCurrent": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BatteryCapacity": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        }
+      }
+    },
+    {
+      "Id": "UPS-003",
+      "IsEnable": false,
+      "Name": "預設名稱UPS-003",
+      "Data": {
+        "InputStatus": {
+          "AlarmEnable": false,
+          "AlarmGroupIds": [
+            0,
+            1,
+            2
+          ],
+          "IsOnAlarm": false,
+          "AlarmDOId": "DO-001"
+        },
+        "InputVoltageR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "InputVoltageS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "InputVoltageT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "InputFrequencyR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "InputFrequencyS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "InputFrequencyT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputVoltageR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputVoltageS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputVoltageT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputCurrentR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputCurrentS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputCurrentT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputFrequency": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputLoadR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputLoadS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputLoadT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputPowerR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputPowerS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "OutputPowerT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BypassVoltageR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BypassVoltageS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BypassVoltageT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BypassFrequency": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BatteryVoltage": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BatteryCurrent": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "BatteryCapacity": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        }
+      }
+    }
+  ],
+  "PowerMeters": [
+    {
+      "Id": "EM-001",
+      "IsEnable": false,
+      "Name": "預設名稱EM-001",
+      "Data": {
+        "VoltageR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "VoltageS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "VoltageT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "Frequency": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "Power": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "Energy": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        }
+      }
+    },
+    {
+      "Id": "EM-002",
+      "IsEnable": false,
+      "Name": "預設名稱EM-002",
+      "Data": {
+        "VoltageR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "VoltageS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "VoltageT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "Frequency": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "Power": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "Energy": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        }
+      }
+    }
+  ],
+  "PDUs": [
+    {
+      "Id": "PDU-001",
+      "IsEnable": false,
+      "Name": "預設名稱PDU-001",
+      "Data": {
+        "VoltageR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "VoltageS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "VoltageT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "PowerR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "PowerS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "PowerT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        }
+      }
+    },
+    {
+      "Id": "PDU-002",
+      "IsEnable": false,
+      "Name": "預設名稱PDU-002",
+      "Data": {
+        "VoltageR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "VoltageS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "VoltageT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "PowerR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "PowerS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "PowerT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        }
+      }
+    },
+    {
+      "Id": "PDU-003",
+      "IsEnable": false,
+      "Name": "預設名稱PDU-003",
+      "Data": {
+        "VoltageR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "VoltageS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "VoltageT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "PowerR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "PowerS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "PowerT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        }
+      }
+    },
+    {
+      "Id": "PDU-004",
+      "IsEnable": false,
+      "Name": "預設名稱PDU-004",
+      "Data": {
+        "VoltageR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "VoltageS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "VoltageT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "PowerR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "PowerS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "PowerT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        }
+      }
+    },
+    {
+      "Id": "PDU-005",
+      "IsEnable": false,
+      "Name": "預設名稱PDU-005",
+      "Data": {
+        "VoltageR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "VoltageS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "VoltageT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "CurrentT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "PowerR": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "PowerS": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        },
+        "PowerT": {
+          "UpperLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          },
+          "LowerLimitAlarm": {
+            "LimitValue": 0,
+            "AlarmEnable": false,
+            "AlarmGroupIds": [
+              0,
+              1,
+              2
+            ],
+            "AlarmDOId": "DO-001"
+          }
+        }
+      }
+    }
+  ]
+}

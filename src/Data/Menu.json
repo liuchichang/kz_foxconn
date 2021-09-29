@@ -1,0 +1,63 @@
+[
+    { 
+        "index":0, 
+        "title": "首頁", 
+        "icon": "mdi-home" , 
+        "path": "/index",
+        "auth":["Developer","Manager", "Installer", "Operator", "Visitor"]
+    },
+    { 
+        "index":1, 
+        "title": "歷史資料", 
+        "icon": "mdi-file-document-multiple", 
+        "path": "/history",
+        "auth":["Developer","Manager", "Installer", "Operator", "Visitor"]
+    },
+    { 
+        "index":2, 
+        "title": "警報管理", 
+        "icon": "mdi-bell" , 
+        "path":"/alarmManagement",
+        "auth":["Developer","Manager", "Installer", "Operator", "Visitor"]
+    },
+    { 
+        "index":3, 
+        "title": "人員管理", 
+        "icon": "mdi-card-account-details" , 
+        "path":"/userManagement",
+        "auth":["Developer","Manager", "Installer", "Operator"]
+    },
+    {
+        "index":4, 
+        "title": "設定", 
+        "icon": "mdi-cog" , 
+        "path": "/setup", 
+        "auth":["Developer", "Installer"],
+        "subItems":[
+            { 
+                "index":41, 
+                "title": "啟用設備設定", 
+                "icon": "mdi-view-grid" , 
+                "path": "/setup/EquipmentSetup"
+            },
+            { 
+                "index":42, 
+                "title": "網路設定", 
+                "icon": "mdi-web" , 
+                "path":"/setup/InternetSetup"
+            },
+            { 
+                "index":43, 
+                "title": "警報發送設定", 
+                "icon": "mdi-send-circle", 
+                "path":"/setup/AlarmSendSetup"
+            },
+            { 
+                "index":44, 
+                "title": "系統設定", 
+                "icon": "" , 
+                "path":"/setup/SystemSetup"
+            }
+        ]
+    }
+]

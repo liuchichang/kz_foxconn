@@ -1,0 +1,4657 @@
+{
+    "DigitalOutputs": [
+        {
+            "IsEnable": true,
+            "Name": "輸出1"
+        },
+        {
+            "IsEnable": true,
+            "Name": "輸出2"
+        },
+        {
+            "IsEnable": true,
+            "Name": "輸出3"
+        },
+        {
+            "IsEnable": true,
+            "Name": "輸出4"
+        },
+        {
+            "IsEnable": true,
+            "Name": "輸出5"
+        },
+        {
+            "IsEnable": true,
+            "Name": "輸出6"
+        },
+        {
+            "IsEnable": true,
+            "Name": "輸出7"
+        },
+        {
+            "IsEnable": true,
+            "Name": "輸出8"
+        }
+    ],
+    "DigitalInputs": [
+        {
+            "IsEnable": true,
+            "IsNormalOpen": true,
+            "Name": "輸入1",
+            "AlarmEnable": true,
+            "AlarmGroupIds": [
+                "AG01",
+                "AG02"
+            ],
+            "IsOnAlarm": true,
+            "IsAlarmViaDO": true,
+            "AlarmDOIndex": 3,
+            "IsAlarmViaText": true,
+            "IsAlarmViaEmail": true,
+            "IsAlarmViaLine": true
+        },
+        {
+            "IsEnable": true,
+            "IsNormalOpen": true,
+            "Name": "輸入2",
+            "AlarmEnable": true,
+            "AlarmGroupIds": [
+                "AG01",
+                "AG02"
+            ],
+            "IsOnAlarm": true,
+            "IsAlarmViaDO": true,
+            "AlarmDOIndex": 3,
+            "IsAlarmViaText": true,
+            "IsAlarmViaEmail": true,
+            "IsAlarmViaLine": true
+        },
+        {
+            "IsEnable": true,
+            "IsNormalOpen": true,
+            "Name": "輸入3",
+            "AlarmEnable": true,
+            "AlarmGroupIds": [
+                "AG01",
+                "AG02"
+            ],
+            "IsOnAlarm": true,
+            "IsAlarmViaDO": true,
+            "AlarmDOIndex": 3,
+            "IsAlarmViaText": true,
+            "IsAlarmViaEmail": true,
+            "IsAlarmViaLine": true
+        },
+        {
+            "IsEnable": true,
+            "IsNormalOpen": true,
+            "Name": "輸入4",
+            "AlarmEnable": true,
+            "AlarmGroupIds": [
+                "AG01",
+                "AG02"
+            ],
+            "IsOnAlarm": true,
+            "IsAlarmViaDO": true,
+            "AlarmDOIndex": 3,
+            "IsAlarmViaText": true,
+            "IsAlarmViaEmail": true,
+            "IsAlarmViaLine": true
+        },
+        {
+            "IsEnable": true,
+            "IsNormalOpen": true,
+            "Name": "輸入5",
+            "AlarmEnable": true,
+            "AlarmGroupIds": [
+                "AG01",
+                "AG02"
+            ],
+            "IsOnAlarm": true,
+            "IsAlarmViaDO": true,
+            "AlarmDOIndex": 3,
+            "IsAlarmViaText": true,
+            "IsAlarmViaEmail": true,
+            "IsAlarmViaLine": true
+        },
+        {
+            "IsEnable": true,
+            "IsNormalOpen": true,
+            "Name": "輸入6",
+            "AlarmEnable": true,
+            "AlarmGroupIds": [
+                "AG01",
+                "AG02"
+            ],
+            "IsOnAlarm": true,
+            "IsAlarmViaDO": true,
+            "AlarmDOIndex": 3,
+            "IsAlarmViaText": true,
+            "IsAlarmViaEmail": true,
+            "IsAlarmViaLine": true
+        }
+    ],
+    "AnalogInputs": [
+        {
+            "IsEnable": true,
+            "Unit": "%",
+            "Name": "輸入1",
+            "UpperLimitAlarm": {
+                "LimitValue": 123.456,
+                "AlarmEnable": true,
+                "AlarmGroupIds": [
+                    "AG01",
+                    "AG02"
+                ],
+                "IsAlarmViaDO": true,
+                "AlarmDOIndex": 3,
+                "IsAlarmViaText": true,
+                "IsAlarmViaEmail": true,
+                "IsAlarmViaLine": true
+            },
+            "LowerLimitAlarm": {
+                "LimitValue": 123.456,
+                "AlarmEnable": true,
+                "AlarmGroupIds": [
+                    "AG01",
+                    "AG02"
+                ],
+                "IsAlarmViaDO": true,
+                "AlarmDOIndex": 3,
+                "IsAlarmViaText": true,
+                "IsAlarmViaEmail": true,
+                "IsAlarmViaLine": true
+            }
+        },
+        {
+            "IsEnable": true,
+            "Unit": "%",
+            "Name": "輸入2",
+            "UpperLimitAlarm": {
+                "LimitValue": 123.456,
+                "AlarmEnable": true,
+                "AlarmGroupIds": [
+                    "AG01",
+                    "AG02"
+                ],
+                "IsAlarmViaDO": true,
+                "AlarmDOIndex": 3,
+                "IsAlarmViaText": true,
+                "IsAlarmViaEmail": true,
+                "IsAlarmViaLine": true
+            },
+            "LowerLimitAlarm": {
+                "LimitValue": 123.456,
+                "AlarmEnable": true,
+                "AlarmGroupIds": [
+                    "AG01",
+                    "AG02"
+                ],
+                "IsAlarmViaDO": true,
+                "AlarmDOIndex": 3,
+                "IsAlarmViaText": true,
+                "IsAlarmViaEmail": true,
+                "IsAlarmViaLine": true
+            }
+        },
+        {
+            "IsEnable": true,
+            "Unit": "%",
+            "Name": "輸入3",
+            "UpperLimitAlarm": {
+                "LimitValue": 123.456,
+                "AlarmEnable": true,
+                "AlarmGroupIds": [
+                    "AG01",
+                    "AG02"
+                ],
+                "IsAlarmViaDO": true,
+                "AlarmDOIndex": 3,
+                "IsAlarmViaText": true,
+                "IsAlarmViaEmail": true,
+                "IsAlarmViaLine": true
+            },
+            "LowerLimitAlarm": {
+                "LimitValue": 123.456,
+                "AlarmEnable": true,
+                "AlarmGroupIds": [
+                    "AG01",
+                    "AG02"
+                ],
+                "IsAlarmViaDO": true,
+                "AlarmDOIndex": 3,
+                "IsAlarmViaText": true,
+                "IsAlarmViaEmail": true,
+                "IsAlarmViaLine": true
+            }
+        },
+        {
+            "IsEnable": true,
+            "Unit": "%",
+            "Name": "輸入4",
+            "UpperLimitAlarm": {
+                "LimitValue": 123.456,
+                "AlarmEnable": true,
+                "AlarmGroupIds": [
+                    "AG01",
+                    "AG02"
+                ],
+                "IsAlarmViaDO": true,
+                "AlarmDOIndex": 3,
+                "IsAlarmViaText": true,
+                "IsAlarmViaEmail": true,
+                "IsAlarmViaLine": true
+            },
+            "LowerLimitAlarm": {
+                "LimitValue": 123.456,
+                "AlarmEnable": true,
+                "AlarmGroupIds": [
+                    "AG01",
+                    "AG02"
+                ],
+                "IsAlarmViaDO": true,
+                "AlarmDOIndex": 3,
+                "IsAlarmViaText": true,
+                "IsAlarmViaEmail": true,
+                "IsAlarmViaLine": true
+            }
+        },
+        {
+            "IsEnable": true,
+            "Unit": "%",
+            "Name": "輸入5",
+            "UpperLimitAlarm": {
+                "LimitValue": 123.456,
+                "AlarmEnable": true,
+                "AlarmGroupIds": [
+                    "AG01",
+                    "AG02"
+                ],
+                "IsAlarmViaDO": true,
+                "AlarmDOIndex": 3,
+                "IsAlarmViaText": true,
+                "IsAlarmViaEmail": true,
+                "IsAlarmViaLine": true
+            },
+            "LowerLimitAlarm": {
+                "LimitValue": 123.456,
+                "AlarmEnable": true,
+                "AlarmGroupIds": [
+                    "AG01",
+                    "AG02"
+                ],
+                "IsAlarmViaDO": true,
+                "AlarmDOIndex": 3,
+                "IsAlarmViaText": true,
+                "IsAlarmViaEmail": true,
+                "IsAlarmViaLine": true
+            }
+        },
+        {
+            "IsEnable": true,
+            "Unit": "%",
+            "Name": "輸入6",
+            "UpperLimitAlarm": {
+                "LimitValue": 123.456,
+                "AlarmEnable": true,
+                "AlarmGroupIds": [
+                    "AG01",
+                    "AG02"
+                ],
+                "IsAlarmViaDO": true,
+                "AlarmDOIndex": 3,
+                "IsAlarmViaText": true,
+                "IsAlarmViaEmail": true,
+                "IsAlarmViaLine": true
+            },
+            "LowerLimitAlarm": {
+                "LimitValue": 123.456,
+                "AlarmEnable": true,
+                "AlarmGroupIds": [
+                    "AG01",
+                    "AG02"
+                ],
+                "IsAlarmViaDO": true,
+                "AlarmDOIndex": 3,
+                "IsAlarmViaText": true,
+                "IsAlarmViaEmail": true,
+                "IsAlarmViaLine": true
+            }
+        }
+    ],
+    "THMeters": [
+        {
+            "IsEnable": true,
+            "Name": "溫濕度計1",
+            "Temperature": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "Humidity": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            }
+        },
+        {
+            "IsEnable": true,
+            "Name": "溫濕度計2",
+            "Temperature": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "Humidity": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            }
+        },
+        {
+            "IsEnable": true,
+            "Name": "溫濕度計3",
+            "Temperature": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "Humidity": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            }
+        },
+        {
+            "IsEnable": true,
+            "Name": "溫濕度計4",
+            "Temperature": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "Humidity": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            }
+        },
+        {
+            "IsEnable": true,
+            "Name": "溫濕度計5",
+            "Temperature": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "Humidity": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            }
+        }
+    ],
+    "UPSs": [
+        {
+            "IsEnable": true,
+            "Name": "UPS1",
+            "InputStatus": {
+                "AlarmEnable": true,
+                "AlarmGroupIds": [
+                    "AG01",
+                    "AG02"
+                ],
+                "IsOnAlarm": true,
+                "IsAlarmViaDO": true,
+                "AlarmDOIndex": 3,
+                "IsAlarmViaText": true,
+                "IsAlarmViaEmail": true,
+                "IsAlarmViaLine": true
+            },
+            "InputVoltageR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "InputVoltageS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "InputVoltageT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "InputFrequencyR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "InputFrequencyS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "InputFrequencyT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputVoltageR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputVoltageS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputVoltageT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputCurrentR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputCurrentS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputCurrentT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputFrequency": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputLoadR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputLoadS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputLoadT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputPowerR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputPowerS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputPowerT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BypassVoltageR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BypassVoltageS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BypassVoltageT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BypassFrequency": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BatteryVoltage": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BatteryCurrent": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BatteryCapacity": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            }
+        },
+        {
+            "IsEnable": true,
+            "Name": "UPS2",
+            "InputStatus": {
+                "AlarmEnable": true,
+                "AlarmGroupIds": [
+                    "AG01",
+                    "AG02"
+                ],
+                "IsOnAlarm": true,
+                "IsAlarmViaDO": true,
+                "AlarmDOIndex": 3,
+                "IsAlarmViaText": true,
+                "IsAlarmViaEmail": true,
+                "IsAlarmViaLine": true
+            },
+            "InputVoltageR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "InputVoltageS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "InputVoltageT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "InputFrequencyR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "InputFrequencyS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "InputFrequencyT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputVoltageR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputVoltageS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputVoltageT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputCurrentR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputCurrentS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputCurrentT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputFrequency": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputLoadR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputLoadS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputLoadT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputPowerR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputPowerS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputPowerT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BypassVoltageR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BypassVoltageS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BypassVoltageT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BypassFrequency": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BatteryVoltage": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BatteryCurrent": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BatteryCapacity": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            }
+        },
+        {
+            "IsEnable": true,
+            "Name": "UPS3",
+            "InputStatus": {
+                "AlarmEnable": true,
+                "AlarmGroupIds": [
+                    "AG01",
+                    "AG02"
+                ],
+                "IsOnAlarm": true,
+                "IsAlarmViaDO": true,
+                "AlarmDOIndex": 3,
+                "IsAlarmViaText": true,
+                "IsAlarmViaEmail": true,
+                "IsAlarmViaLine": true
+            },
+            "InputVoltageR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "InputVoltageS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "InputVoltageT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "InputFrequencyR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "InputFrequencyS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "InputFrequencyT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputVoltageR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputVoltageS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputVoltageT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputCurrentR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputCurrentS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputCurrentT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputFrequency": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputLoadR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputLoadS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputLoadT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputPowerR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputPowerS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "OutputPowerT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BypassVoltageR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BypassVoltageS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BypassVoltageT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BypassFrequency": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BatteryVoltage": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BatteryCurrent": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "BatteryCapacity": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            }
+        }
+    ],
+    "PowerMeters": [
+        {
+            "IsEnable": true,
+            "Name": "集合式電表1",
+            "VoltageR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "VoltageS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "VoltageT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "Frequency": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "Power": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "Energy": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            }
+        },
+        {
+            "IsEnable": true,
+            "Name": "集合式電表2",
+            "VoltageR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "VoltageS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "VoltageT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "Frequency": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "Power": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "Energy": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            }
+        }
+    ],
+    "PDUs": [
+        {
+            "IsEnable": true,
+            "Name": "排插1",
+            "VoltageR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "VoltageS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "VoltageT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "PowerR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "PowerS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "PowerT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            }
+        },
+        {
+            "IsEnable": true,
+            "Name": "排插2",
+            "VoltageR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "VoltageS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "VoltageT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "PowerR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "PowerS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "PowerT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            }
+        },
+        {
+            "IsEnable": true,
+            "Name": "排插3",
+            "VoltageR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "VoltageS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "VoltageT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "PowerR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "PowerS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "PowerT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            }
+        },
+        {
+            "IsEnable": true,
+            "Name": "排插4",
+            "VoltageR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "VoltageS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "VoltageT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "PowerR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "PowerS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "PowerT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            }
+        },
+        {
+            "IsEnable": true,
+            "Name": "排插5",
+            "VoltageR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "VoltageS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "VoltageT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "CurrentT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "PowerR": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "PowerS": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            },
+            "PowerT": {
+                "UpperLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                },
+                "LowerLimitAlarm": {
+                    "LimitValue": 123.456,
+                    "AlarmEnable": true,
+                    "AlarmGroupIds": [
+                        "AG01",
+                        "AG02"
+                    ],
+                    "IsAlarmViaDO": true,
+                    "AlarmDOIndex": 3,
+                    "IsAlarmViaText": true,
+                    "IsAlarmViaEmail": true,
+                    "IsAlarmViaLine": true
+                }
+            }
+        }
+    ]
+}

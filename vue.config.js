@@ -6,9 +6,7 @@ module.exports = {
     'resize-detector'
   ],
   // publicPath:'',   //process.env.NODE_ENV === "production" ? "/banner-project" : "/",
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/foxconn/' 
-    : '/',
+  publicPath: './',
   devServer: {
     port: 8080,
   },

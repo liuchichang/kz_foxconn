@@ -96,6 +96,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
+  mode: 'history', //hash history
   base: "/",
   routes
 })

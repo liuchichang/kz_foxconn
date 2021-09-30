@@ -243,7 +243,7 @@
                         <v-row class="my-3 mx-auto no-flex" align="center" 
                             v-if="hasUser && ACSetting && CheckIdentity(['Operator','Manager','Installer','Developer'])"
                         >
-                            <v-radio-group class="mt-0" row v-model="ACSetting.IsManual" hide-details>
+                            <v-radio-group class="mt-0 time_range" row v-model="ACSetting.IsManual" hide-details>
                                 <v-radio
                                     v-for="n in mode"
                                     :key="n.id"
@@ -256,6 +256,7 @@
                         <v-row class="my-1 mx-auto item no-flex" align="center" v-if="hasUser && ACSetting && CheckIdentity(['Installer','Developer'])">
                             <p class="font-weight-bold my-0 mr-5">交替延遲時間</p>
                             <v-text-field 
+                                dark
                                 class="my-0"
                                 type="number" 
                                 v-model.number="ACSetting.ChangeDelaySeconds"
@@ -285,6 +286,7 @@
                             >
                                 <p class="font-weight-bold my-0 mr-5">時間</p>
                                 <v-text-field 
+                                    dark
                                     type="number" 
                                     v-model.number="ACSetting.TimekeepingModeSettings.Time"
                                 >
@@ -304,6 +306,7 @@
                                 v-if="!ACSetting.IsManual && ACSetting.IsTimePeriodMode  && CheckIdentity(['Operator','Manager','Installer','Developer'])"
                             >
                                 <v-text-field 
+                                    dark
                                     class="mr-5"
                                     type="number" 
                                     label="啟動時間" 
@@ -311,6 +314,7 @@
                                     v-model.number="ACSetting.TimePeriodModeSettings.RunTime"
                                 ></v-text-field>
                                 <v-text-field 
+                                    dark
                                     type="number" 
                                     label="停止時間" 
                                     suffix="時" 
@@ -745,7 +749,12 @@ p{
     max-width: 1000px;
     /* position: absolute; */
 }
-
+.time_range >>> i {
+  color: #1976d2 !important;
+}
+p, .time_range >>> label{
+    color: white;
+}
 
 
 

@@ -31,3 +31,23 @@ Clone專案至本地端
 若無意外，即可訪問頁面
 ```
 
+## 打包作業
+#### step 1
+```
+Clone專案至本地端
+```
+
+#### step 2
+```
+[do anything you want]
+```
+
+#### step 3
+```
+npm run serve
+```
+
+#### step 3
+```
+將/dist 資料夾整包放入serve的對外空間
+```
